@@ -1267,6 +1267,8 @@ body.light .personal-info ul h6 {
   display: block;
   position: relative;
   border-radius: 4px;
+  height: 160px;
+  width: 100%;
 }
 
 #portfolio-items li a {
@@ -1399,7 +1401,17 @@ body.light .personal-info ul h6 {
   border: 0;
 }
 
+@media (max-width: 768px) {
+  #portfolio-items li a,
+#portfolio-items li a img {
+  
+  width: 70%;
 
+}
+#portfolio-items li a div {
+  display: none;
+}
+}
 
 /* CONTACT
 ================================================== */
