@@ -1,26 +1,6 @@
 
 
 
-/*------------------------------------------------------------------
-[Table of contents]
-	+ General
-		- Preloader
-	+ Header
-		- Navigation
-	+ Main Section
-		+ miscellaneous
-			- Text Rotator
-		+ About
-			- Personal Informations
-			- Skills
-		- Portfolio
-		+ Contact
-			- Left Side
-			- Social Media Icons
-			- Right Side
-	- Responsive Design Styles
--------------------------------------------------------------------*/
-
 /* [ GENERAL ] */
 /*================================================== */
 
@@ -881,20 +861,22 @@ div.container.page-title {
 
 /*** Text Rotator ***/
 
-.main-text-container {
-  height: 100%;
-  width: 100%;
-  display: table;
-  margin-left: 50vw;
-  max-width: 550px;
-}
-
 .main-text {
   z-index: 13;
   position: relative;
   text-align: left;
-  display: table-cell;
   vertical-align: middle;
+  top: 316px;
+}
+
+.main-social {
+  position: relative;  
+  top: 350px;
+  font-size: 30px;
+}
+
+.main-social i {
+  color: #ffb400;
 }
 
 .main-text h3 {
@@ -1405,7 +1387,7 @@ body.light .personal-info ul h6 {
   #portfolio-items li a,
 #portfolio-items li a img {
   
-  width: 70%;
+  width: 100%;
 
 }
 #portfolio-items li a div {
@@ -1776,8 +1758,10 @@ margin: 0 12px 50px;
 }
 
 .main-text {
-  text-align: center;
-  margin: 0 auto;
+  text-align: left;
+}
+.call-to-actions-home {
+  display: none;
 }
 
 .main-text h1 {
@@ -1857,28 +1841,28 @@ main#main {
 
 
 .navigation li:first-child {
-  display: none;
+  left: 24px;
+  top: 24px;
 }
 
+
+
 .navigation li:nth-child(2) {
-  left: 24px;
+  right: 24px;
   top: 24px;
 }
 
 .navigation li:nth-child(3) {
-  right: 24px;
-  top: 24px;
-}
-
-.navigation li:nth-child(4) {
   left: 24px;
   bottom: 24px;
 }
 
-.navigation li:nth-child(5) {
+.navigation li:nth-child(4) {
   right: 24px;
   bottom: 24px;
 }
+
+
 
 .navigation a {
   color: #555;
@@ -1977,10 +1961,12 @@ main#main.open {
 
 .list-1 {
   margin-bottom: 0;
+  text-align: left;
 }
 
 .list-2 {
   margin-top: 0;
+  text-align: right;
 }
 
 .close-project {
@@ -1996,6 +1982,15 @@ main#main.open {
 /*****************************************/
 
 @media (max-width: 767px) {
+
+
+  .main-text {
+    top :250px;
+  }
+
+  .main-social {
+    top: 275px;
+  }
   .infos {
     padding: 0 30px 50px 30px;
   }
@@ -2092,13 +2087,26 @@ main#main.open {
     height: calc(25% - 30px);
   }
 
-  .navigation li:nth-child(3) {
+  .main-text {
+    
+    top: 200px;
+  }
+
+  .main-social {
+  top: 215px;
+  }
+
+  .navigation li:nth-child(2) {
     top: calc(25% + 18px);
   }
 
-  .navigation li:nth-child(4) {
+  .navigation li:nth-child(3) {
     bottom: initial;
     top: calc(50% + 12px);
+  }
+  .navigation li:nth-child(4) {
+    bottom: initial;
+    top: calc(75% + 10px);
   }
 
   .navigation li a {
