@@ -263,12 +263,13 @@ body.blog .container-fluid.page-title .content-banner {
   right: 0;
   z-index: 111111111;
   display: flex;
+  transition: .3s all ease;
+
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: .3s all ease;
   pointer-events: none;
-  backface-visibility: hidden;
+  backface-visibility: hidden; 
 }
 
 .preloader::before, .preloader::after {
