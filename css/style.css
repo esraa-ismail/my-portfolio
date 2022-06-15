@@ -26,9 +26,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  color: #555;
-  background: #fff;
+   color: #555;
   font-size: 0.9em;
   font-weight: 400;
 }
@@ -64,7 +62,7 @@ a:hover {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
   text-transform: uppercase;
 }
 /* Buttons */
@@ -809,7 +807,7 @@ main#main {
   font-size: 16px;
   line-height: 32px;
   font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
+/*  font-family: 'Open Sans', sans-serif; */
 }
 
 div.container.page-title {
@@ -835,7 +833,7 @@ div.container.page-title {
   color: #fff;
   margin: 20px 0 0;
   opacity: .8;
-  font-family: 'Open Sans', sans-serif;
+/*  font-family: 'Open Sans', sans-serif; */
 }
 
 .page-title .title-head-subtitle:before {
@@ -883,7 +881,7 @@ div.container.page-title {
 .main-text h3 {
   font-weight: 400;
   font-size: 19px;
-  font-family: 'Open Sans', sans-serif;
+/*  font-family: 'Open Sans', sans-serif; */
   color: #fff;
 
 }
@@ -963,7 +961,7 @@ div.container.page-title {
 
 
 .personal-info p {
-	font-family: 'Open Sans', sans-serif;
+	/* font-family: 'Open Sans', sans-serif; */
 	font-size: 16px;
     line-height: 32px;
 	margin: 17px 0 16px;
@@ -985,7 +983,7 @@ body.light .personal-info p {
 
 .personal-info ul h6 {
   margin: 5px 0 0;
-  font-family: 'Open Sans', sans-serif;
+  /*  font-family: 'Poppins', sans-serif; */
   text-transform: inherit;
   font-weight: 500;
 }
@@ -1001,7 +999,7 @@ body.light .personal-info ul h6 {
 .personal-info ul li span {
   text-transform: capitalize;
   margin-bottom: 7px;
-  font-family: 'Open Sans', sans-serif;
+/*  font-family: 'Open Sans', sans-serif; */
   font-weight: 400;
   font-size: 16px;
   opacity: .8;
@@ -1060,7 +1058,7 @@ body.light .personal-info ul h6 {
   line-height: 31px;
   top: 50%;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+/*  font-family: 'Open Sans', sans-serif; */
 }
 
 .chart-bar>.percent span {
@@ -1199,7 +1197,7 @@ body.light .personal-info ul h6 {
   padding-bottom: 12px;
   font-size: 15px;
   line-height: 28px;
-  font-family: 'Open Sans', sans-serif;
+/*  font-family: 'Open Sans', sans-serif; */
 }
 
 .project-info-container .projects-info  ul.project-details li i {
@@ -1209,7 +1207,7 @@ body.light .personal-info ul h6 {
 .project-info-container p {
   font-size: 16px;
   line-height: 32px;
-  font-family: 'Open Sans', sans-serif;
+/*  font-family: 'Open Sans', sans-serif; */
   margin-bottom: 30px;
 }
 
@@ -1410,7 +1408,7 @@ body.light .personal-info ul h6 {
 }
 
 .leftside p {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
 }
 
 .custom-list {
@@ -1426,7 +1424,7 @@ body.light .personal-info ul h6 {
 .custom-list h6 {
   margin: 5px 0 0;
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
   text-transform: uppercase;
   position: relative;
 }
@@ -1447,7 +1445,7 @@ body.light .personal-info ul h6 {
   text-transform: capitalize;
   display: block;
   margin-bottom: 10px;
-  font-family: 'Open Sans', sans-serif;
+/*  font-family: 'Open Sans', sans-serif; */
   font-weight: 400;
   font-size: 15px;
   color: #fff;
@@ -1477,7 +1475,7 @@ body.light .personal-info ul h6 {
   text-transform: capitalize;
   display: block;
   margin-bottom: 12px;
-  font-family: 'Open Sans', sans-serif;
+/*  font-family: 'Open Sans', sans-serif; */
   font-weight: 400;
   font-size: 15px;
   opacity: .8;
@@ -1532,7 +1530,7 @@ ul.social-intro li a:hover i {
 
 .contact-container .contact .rightside p {
   margin: 0 0 24px !important;
-  font-family: 'Open Sans', sans-serif;
+/*  font-family: 'Open Sans', sans-serif; */
   font-size: 16px;
   line-height: 32px;
   color: #fff;
@@ -1564,7 +1562,7 @@ ul.social-intro li a:hover i {
   outline: none;
   box-shadow: none !important;
   font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+/*  font-family: 'Open Sans', sans-serif; */
 }
 
 .contact-container .contact .rightside form .form-group input[type=text],
@@ -1752,7 +1750,7 @@ margin: 0 12px 50px;
 }
 
 .personal-info-mobile p {
-  font-family: 'Open Sans', sans-serif;
+/*  font-family: 'Open Sans', sans-serif; */
   font-size: 16px;
   line-height: 32px;
   margin-bottom: 40px;
@@ -2002,7 +2000,7 @@ main#main.open {
   
   .personal-info p {
     display: block;
-    font-family: 'Open Sans', sans-serif;
+  /*  font-family: 'Open Sans', sans-serif; */
     margin: 60px 0 25px !important;
     line-height: 32px;
   }
